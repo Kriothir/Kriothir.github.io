@@ -6,6 +6,8 @@ body{
   font-family: 'Poppins',sans-serif;
   padding: 50px;
   text-align: center;
+  background: rgb(0,0,35);
+ 
 }
 .container{
   height: 250px;
@@ -15,11 +17,11 @@ body{
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 .container:hover{
-  height: 470px;
+  height: 520px;
   width: 350px;
   border-radius: 5px;
   box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
@@ -113,7 +115,7 @@ body{
   transition-delay: 0.4s;
 }
 .container .icons li a{
-  color: #7b00e0;
+  color: #090979;
   height: 100%;
   width: 100%;
   border-radius: 50%;
